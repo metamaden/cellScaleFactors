@@ -1,0 +1,36 @@
+cell_type,tissue,scale factor value,scale factor type,scale factor data source,citation(s)
+glial,brain,91,cell area,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
+neuron,brain,123,cell area,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
+glial,brain,180,nucleur mRNA,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
+neuron,brain,198,nuclear mRNA,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
+glial,brain,12879,library_size,expression,Darmanis et al 2015; Sosina et al 2021
+neuron,brain,18924,library_size,expression,Darmanis et al 2015; Sosina et al 2021
+B cells,multiple,65.66148,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+Macrophages,multiple,138.1152,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+MacrophagesM2,multiple,119.35447,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+Monocytes,multiple,130.65455,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+Neutrophils,multiple,27.73634,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+NK cells,multiple,117.71584,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+T cells CD4,multiple,63.872,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+T cells CD8,multiple,70.25659,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+T regulatory cells,multiple,72.5511,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+Dendritic cells,multiple,140.76091,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+T cells,multiple,68.89323,median_expression,Housekeeping gene expression,Finotello et al 2019; Dietrich et al 2022
+B cells,multiple,0.4016,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+Macrophages,multiple,1.4196,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+Monocytes,multiple,1.4196,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+Neutrophils,multiple,0.13,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+NK cells,multiple,0.4396,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+T cells,multiple,0.3952,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+T cells CD4,multiple,0.3952,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+T cells CD8,multiple,0.3952,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+T helper cells,multiple,0.3952,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+T regulatory cells,multiple,0.3952,intensity,FACS,Racle et al 2017; Dietrich et al 2022
+B cells,multiple,20837.57,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+Monocytes,multiple,22824.323,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+Neutrophils,multiple,9546.743,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+NK cells,multiple,21456.906,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+T cells CD4,multiple,14262.065,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+T cells CD8,multiple,10660.952,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+Plasma cells,multiple,325800.989,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
+Dendritic cells,multiple,57322.184,intensity,FACS,Monaco et al 2019; Dietrich et al 2022
