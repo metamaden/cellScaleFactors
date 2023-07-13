@@ -1,7 +1,7 @@
 cell_type,tissue,scale factor value,scale factor type,scale factor data source,citation(s)
 glial,brain,91,cell area,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
 neuron,brain,123,cell area,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
-glial,brain,180,nucleur mRNA,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
+glial,brain,180,nuclear mRNA,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
 neuron,brain,198,nuclear mRNA,osmFISH,Codeluppi et al. 2018; Sosina et al 2021
 glial,brain,12879,library_size,expression,Darmanis et al 2015; Sosina et al 2021
 neuron,brain,18924,library_size,expression,Darmanis et al 2015; Sosina et al 2021

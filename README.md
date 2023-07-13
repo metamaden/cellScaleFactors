@@ -1,2 +1,5 @@
 # cellScaleFactors
-R/Bioconductor datasets compiling cell scale factor references for deconvolution.
+
+Authors: Sean Maden, Stephanie Hicks
+
+Datasets containing reference tables for cell scale factors.
