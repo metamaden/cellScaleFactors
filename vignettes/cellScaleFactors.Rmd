@@ -1,0 +1,52 @@
+---
+title: "cellScaleFactors"
+author: "Sean Maden"
+date: "2023-09-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Introduction
+
+The `cellScaleFactors` package provides access to cell size scale factor values 
+from the literature. These are useful for cell type reference normalization on
+type-specific cell sizes prior to performing bulk transcriptomics deconvolution.
+
+# Installation
+
+Install and load the most recent version of this package with:
+
+```{r}
+if(!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("cellScaleFactors")
+
+# load
+library(cellScaleFactors)
+```
+
+# Get data from the hubs
+
+Retrieve the cell scale factors datasets from the hubs with the following.
+
+```{r, eval = F}
+libv <- c("AnnotationHub", "ExperimentHub")
+sapply(libv, library, character.only = T)
+
+# connect to the hubs
+cache.path <- tools::R_user_dir("cellScaleFactors")
+setExperimentHubOption("CACHE", cache.path)
+hub <- ExperimentHub::ExperimentHub()                    
+
+# query for the cell scale factors table
+rmdat <- AnnotationHub::query(hub, "cellScaleFactors") # query the hubs
+```
+
+# Session info
+
+```{r}
+sessionInfo()
+```
