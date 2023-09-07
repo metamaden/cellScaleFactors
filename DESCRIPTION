@@ -9,7 +9,7 @@ License: Artistic-2.0
 Maintainer: Bioconductor Package Maintainer <maintainer@bioconductor.org>
 URL: https://github.com/metamaden/cellScaleFactors
 Depends: Biobase
-biocViews: ExperimentData, Genome, DNASeqData, RNASeqData
+biocViews: ExperimentData, ExperimentHub, AnnotationHub, AnnotationData, Genome, DNASeqData, RNASeqData
 Suggests: ExperimentHub (>= 0.99.6), knitr, BiocStyle, rmarkdown
 VignetteBuilder: knitr
 NeedsCompilation: no
