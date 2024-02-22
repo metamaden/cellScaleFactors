@@ -42,7 +42,8 @@ setExperimentHubOption("CACHE", cache.path)
 hub <- ExperimentHub::ExperimentHub()                    
 
 # query for the cell scale factors table
-rmdat <- AnnotationHub::query(hub, "cellScaleFactors") # query the hubs
+# rmdat <- AnnotationHub::query(hub, "cellScaleFactors") # query the hubs
+rmdat <- query(hub, c("cellScaleFactors"))
 ```
 
 # Session info
