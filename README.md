@@ -1,10 +1,39 @@
 # cellScaleFactors
 
+[<img style="float: right;" src = "inst/figures/cellScaleFactors_hexsticker.png" height="180"/>]
+
 Authors: Sean Maden, Stephanie Hicks
 
 Datasets containing reference tables for cell scale factors.
 
-Citations:
+# Load
+
+Use `ExperimentHub` to load the `cellScaleFactors` dataset: 
+
+```{r}
+library(ExperimentHub)
+eh <- ExperimentHub()
+csfData <- query(eh, c("cellScaleFactors"))
+path <- csfData[["EH8419"]]
+csfData <- get(load(path))
+```
+
+Preview the first rows of the `tibble` object:
+
+```{r}
+head(csfData)
+# A tibble: 6 × 6
+  cell_type tissue scale.factor.value scale.factor.type scale.factor.data.source citation.s. 
+  <chr>     <chr>               <dbl> <chr>             <chr>                    <chr>       
+1 glial     brain                  91 cell area         osmFISH                  Codeluppi e…
+2 neuron    brain                 123 cell area         osmFISH                  Codeluppi e…
+3 glial     brain                 180 nuclear mRNA      osmFISH                  Codeluppi e…
+4 neuron    brain                 198 nuclear mRNA      osmFISH                  Codeluppi e…
+5 glial     brain               12879 library_size      expression               Darmanis et…
+6 neuron    brain               18924 library_size      expression               Darmanis et…
+```
+
+# Citations
 
 Main cell scale factors data table source:
 
