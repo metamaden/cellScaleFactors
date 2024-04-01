@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10903835.svg)](https://doi.org/10.5281/zenodo.10903835)
 # cellScaleFactors
 
 [<img style="float: right;" src = "inst/figures/cellScaleFactors_hexsticker.png" height="180"/>]
